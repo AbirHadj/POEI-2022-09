@@ -19,6 +19,7 @@ public class Tp5 {
 
     @BeforeMethod
     public void setup() {
+
         driver= new ChromeDriver();
         driver.get ("https://www.amazon.fr/") ;
         driver.manage().window().maximize();
