@@ -1,3 +1,4 @@
+import amazon.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -25,4 +26,6 @@ public class TpCarrefour {
     @Test
     public void testCarrefour() {
     }
+
+    HomePage homePage = new HomePage(driver);
 }

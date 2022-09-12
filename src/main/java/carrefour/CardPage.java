@@ -1,2 +1,4 @@
-package carrefour;public class CardPage {
+package carrefour;
+
+public class CardPage {
 }

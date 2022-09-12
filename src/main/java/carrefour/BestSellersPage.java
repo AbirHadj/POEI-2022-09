@@ -1,2 +1,4 @@
-package carrefour;public class BestSellersPage {
+package carrefour;
+
+public class BestSellersPage {
 }
